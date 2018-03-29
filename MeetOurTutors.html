@@ -1,0 +1,381 @@
+<!DOCTYPE HTML>
+<html>
+<script>
+    (function (i, s, o, g, r, a, m) {
+        i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
+            (i[r].q = i[r].q || []).push(arguments)
+        }, i[r].l = 1 * new Date(); a = s.createElement(o),
+            m = s.getElementsByTagName(o)[0]; a.async = 1; a.src = g; m.parentNode.insertBefore(a, m)
+    })(window, document, 'script', 'https://www.google-analytics.com/analytics.js', 'ga');
+
+    ga('create', 'UA-84572010-2', 'auto');
+    ga('send', 'pageview');
+
+</script>
+
+<head>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        #myInput {
+            background-image: url('/css/searchicon.png');
+            background-position: 10px 10px;
+            background-repeat: no-repeat;
+            width: 100%;
+            font-size: 16px;
+            padding: 12px 20px 12px 40px;
+            border: 1px solid #ddd;
+            margin-bottom: 12px;
+        }
+
+        #myTable {
+            border-collapse: collapse;
+            width: 100%;
+            border: 1px solid #ddd;
+            font-size: 18px;
+        }
+
+        #myTable th,
+        #myTable td {
+            text-align: center;
+            padding: 12px;
+        }
+
+        #myTable tr {
+            border-bottom: 1px solid #ddd;
+        }
+
+        #myTable tr.header,
+        #myTable tr:hover {
+            background-color: #f1f1f1;
+        }
+
+        a {
+            color: #1e7ad3;
+            text-decoration: none;
+        }
+
+        a:hover {
+            text-decoration: underline
+        }
+    </style>
+</head>
+
+<head>
+    <title>onclass</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+    <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="shortcut icon" type="image/png" href="images/logo.png" />
+    <link rel="apple-touch-icon" type="image/png" href="images/logo.png" />
+    <noscript>
+        <link rel="stylesheet" href="assets/css/noscript.css" />
+    </noscript>
+    <style>
+    
+            #tutoring {
+                    background-color: #ffffff;
+                }
+        
+            
+                #tutoring:hover {
+                    color: #18bfef !important;
+                }
+        
+                #tutoring a{
+                    color: #1e252d !important;
+                    text-decoration: none !important;
+                }</style>
+    
+</head>
+
+<body class="is-loading">
+    <div id="wrapper">
+        <header id="header">
+            <a href="index.html" class="logo">onclass</a>
+        </header>
+        <nav id="nav">
+            <ul class="links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="resources.html">Resources</a></li>
+                <li class="active"><a href="tutoring.html">Tutoring</a></li>
+                <li><a href="About.html">About Us</a></li>
+            </ul>
+            <ul class="icons">
+                <li><a href="https://www.facebook.com/onclass.org/" target="_blank" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+                <li><a href="https://www.instagram.com/onclassofficial/" target="_blank" class="icon fa-instagram"><span class="label">Instagram</span></a></li>
+                <li><a href="https://www.linkedin.com/company/onclass.org" target="_blank" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+            </ul>
+        </nav>
+        <div class="main">
+            <section class="post">
+                <header class="major">
+                    <h1>Onclass Tutoring - Meet Our Tutors</h1>
+                    <p>Student volunteer tutors helping anyone for free. You can look at a few of our tutors and subjects they are versed in here!!
+                        <br />
+                        <br /> </p>
+                </header>
+                <section class="main">
+                     <!--   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpeQxxYWzylSxqjiUtUkevUCKLel_nhmZGzttsuUTQqQWm1Q/viewform?embedded=true" width="800" height="600" frameborder="0" marginheight="0" marginwidth="2">Loading...</iframe>
+                     -->
+                    <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for subjects.." title="Type in a keyword">
+                    <table id="myTable">
+                        <tr class="header">
+                            <th style="width:70%;">Description</th>
+                             <th style="width:30%;">Tutor Names</th>
+                        </tr>
+                        <tr>
+                            <td>APs taken are MacroEconomics, MicroEconomics, Physics C Mech and EM, Calculus BC, English Language, Psychology, Statistics, Environmental Science and US History. 99th Percentile in the ACT.</td>
+                            <td><a href="https://www.facebook.com/vishnunaga.srinivasan" target="_blank">Vishnu Srinivasan</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are Computer Science, Chemistry, Calculus AB and US History. 99th Percentile in the SAT.</td>
+                            <td><a href="https://www.facebook.com/rishikesh.balaji.5" target="_blank">Rishikesh Balaji</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are English Language, Chemistry and US History. 99th Percentile in the ACT. </td>
+                            <td><a href="https://www.facebook.com/george.wen.5" target="_blank">George Wen</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are Calculus AB, Chinese and US History. 99th Percentile in the ACT. </td>
+                            <td><a href="https://www.facebook.com/oaiJacob" target="_blank">Jacob Jiao</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are Japanese, Physics C Mech, Calculus BC, Chinese. 95th Percentile in the SAT.
+                            </td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100005923548633" target="_blank">Evan Chou</a></td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are Physics C Mech, Calculus AB and English Language. 99th Percentile in the SAT.</td>
+                            <td><a href="https://www.facebook.com/sohum.oza" target="_blank">Sohum Oza</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are Computer Science, Physics, and Calculus BC. 99th Percentile in the SAT.</td>
+                            <td><a href="https://www.facebook.com/awong650" target="_blank">Andrew Wong</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>APs taken are Computer Science, Physics, US History and Calculus BC. 99th Percentile in the PSAT.</td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100011003327867" target="_blank">Eric Cheng</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>AP taken is Computer Science.</td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100006687226620" target="_blank">Yash Bengali</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> APs taken are Calculus BC, Computer Science and US History. 99th Percentile in the SAT.</td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100006184470318" target="_blank">Nishant Yadav</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> APs taken are Calculus BC, Statistics, Chemistry, English Language, Psychology and US History. 99th Percentile in the ACT.</td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100009103435338" target="_blank">Nikhil Vytla</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> APs taken are Psychology, Environmental Science, Physics 1 and Physics 2. 99th Percentile in the ACT.</td>
+                            <td><a href="https://www.facebook.com/profile.php?id=100010521486490" target="_blank">Mihir Hasan</a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td> APs taken are Economics, Statitics, Calculus BC, Chinese and Physics 1. 99th Percentile in the ACT.</td>
+                            <td><a href="https://www.facebook.com/cheri.zhou.7" target="_blank">Cheri Zhou</a>
+                            </td>
+                        </tr>
+                    </table>
+                </section>
+        </div>
+        <script src="assets\js\jquery.js"></script>
+        <script>
+            $(function () {
+                $("#standard-header").load("navbar.html");
+            });
+        </script>
+    </div>
+    <div class="main">
+        <section class="post">
+            <header class="major">
+                <h1>Onclass Tutoring - Meet Our Tutors</h1>
+                <p>Student volunteer tutors helping anyone for free. You can look at a few of our tutors and subjects they are
+                    versed in here!!
+                    <br />
+                    <br /> </p>
+            </header>
+            <section class="main">
+                <!--   <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfpeQxxYWzylSxqjiUtUkevUCKLel_nhmZGzttsuUTQqQWm1Q/viewform?embedded=true" width="800" height="600" frameborder="0" marginheight="0" marginwidth="2">Loading...</iframe>
+                     -->
+                <input type="text" id="myInput" onkeyup="myFunction()" placeholder="Search for subjects.." title="Type in a keyword">
+                <table id="myTable">
+                    <tr class="header">
+                        <th style="width:70%;">Description</th>
+                        <th style="width:30%;">Tutor Names</th>
+                    </tr>
+                    <tr>
+                        <td>APs taken are MacroEconomics, MicroEconomics, Physics C Mech and EM, Calculus BC, English Language,
+                            Psychology, Statistics, Environmental Science and US History. 99th Percentile in the ACT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/vishnunaga.srinivasan" target="_blank">Vishnu Srinivasan</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are Computer Science, Chemistry, Calculus AB and US History. 99th Percentile in the SAT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/rishikesh.balaji.5" target="_blank">Rishikesh Balaji</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are English Language, Chemistry and US History. 99th Percentile in the ACT. </td>
+                        <td>
+                            <a href="https://www.facebook.com/george.wen.5" target="_blank">George Wen</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are Calculus AB, Chinese and US History. 99th Percentile in the ACT. </td>
+                        <td>
+                            <a href="https://www.facebook.com/oaiJacob" target="_blank">Jacob Jiao</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are Japanese, Physics C Mech, Calculus BC, Chinese. 95th Percentile in the SAT.
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/profile.php?id=100005923548633" target="_blank">Evan Chou</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are Physics C Mech, Calculus AB and English Language. 99th Percentile in the SAT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/sohum.oza" target="_blank">Sohum Oza</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are Computer Science, Physics, and Calculus BC. 99th Percentile in the SAT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/awong650" target="_blank">Andrew Wong</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>APs taken are Computer Science, Physics, US History and Calculus BC. 99th Percentile in the PSAT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/profile.php?id=100011003327867" target="_blank">Eric Cheng</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>AP taken is Computer Science.</td>
+                        <td>
+                            <a href="https://www.facebook.com/profile.php?id=100006687226620" target="_blank">Yash Bengali</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> APs taken are Calculus BC, Computer Science and US History. 99th Percentile in the SAT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/profile.php?id=100006184470318" target="_blank">Nishant Yadav</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> APs taken are Calculus BC, Statistics, Chemistry, English Language, Psychology and US History. 99th
+                            Percentile in the ACT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/profile.php?id=100009103435338" target="_blank">Nikhil Vytla</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> APs taken are Psychology, Environmental Science, Physics 1 and Physics 2. 99th Percentile in the
+                            ACT.
+                        </td>
+                        <td>
+                            <a href="https://www.facebook.com/profile.php?id=100010521486490" target="_blank">Mihir Hasan</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> APs taken are Economics, Statitics, Calculus BC, Chinese and Physics 1. 99th Percentile in the ACT.</td>
+                        <td>
+                            <a href="https://www.facebook.com/cheri.zhou.7" target="_blank">Cheri Zhou</a>
+                        </td>
+                    </tr>
+                </table>
+            </section>
+    </div>
+    <footer id="footer">
+        <section>
+            <h3>Address</h3>
+            <p>1716 Noranda Drive
+                <br /> Sunnyvale, CA</p>
+        </section>
+        <section>
+            <h3>Phone</h3>
+            <p>
+                <a href="tel:+1-669-246-2995">(669) 246-2995</a>
+            </p>
+        </section>
+        <section>
+            <h3>Email</h3>
+            <p>
+                <a href="mailto:deltaonclass@gmail.com">deltaonclass@gmail.com</a>
+            </p>
+        </section>
+        <section>
+            <h3>Social</h3>
+            <ul class="icons alt">
+                <li>
+                    <a href="https://www.facebook.com/onclass.org/" target="_blank" class="icon alt fa-facebook">
+                        <span class="label">Facebook</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/onclassofficial/" target="_blank" class="icon alt fa-instagram">
+                        <span class="label">Instagram</span>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.linkedin.com/company/onclass.org" target="_blank" class="icon alt fa-linkedin">
+                        <span class="label">LinkedIn</span>
+                    </a>
+                </li>
+            </ul>
+        </section>
+        </section>
+    </footer>
+    <div id="copyright">
+        <ul>
+            <li>&copy; onclass</li>
+    </div>
+    </div>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/jquery.scrollex.min.js"></script>
+    <script src="assets/js/jquery.scrolly.min.js"></script>
+    <script src="assets/js/skel.min.js"></script>
+    <script src="assets/js/util.js"></script>
+    <script src="assets/js/main.js"></script>
+    <script>
+        function myFunction() {
+            var input, filter, table, tr, td, i;
+            input = document.getElementById("myInput");
+            filter = input.value.toUpperCase();
+            table = document.getElementById("myTable");
+            tr = table.getElementsByTagName("tr");
+            for (i = 0; i < tr.length; i++) {
+                td = tr[i].getElementsByTagName("td")[0];
+                if (td) {
+                    if (td.innerHTML.toUpperCase().indexOf(filter) > -1) {
+                        tr[i].style.display = "";
+                    } else {
+                        tr[i].style.display = "none";
+                    }
+                }
+            }
+
+        }
+    </script>
+</body>
+
+</html>
